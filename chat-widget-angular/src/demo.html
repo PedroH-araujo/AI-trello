@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Widget Demo</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #1a1a1a;
+            margin-bottom: 2rem;
+        }
+        .demo-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .demo-section {
+            flex: 1;
+            min-width: 400px;
+            max-width: 500px;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2a2a2a;
+            margin-bottom: 1.5rem;
+        }
+        .code-example {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo do Chat Widget</h1>
+    
+    <div class="demo-container">
+        <section class="demo-section">
+            <h2>Como IFrame</h2>
+            <iframe 
+                src="/"
+                width="400" 
+                height="600" 
+                frameborder="0"
+                style="border: 1px solid #e5e5e5; border-radius: 8px;"
+            ></iframe>
+            <div class="code-example">
+                &lt;iframe 
+                    src="URL_DO_WIDGET" 
+                    width="400" 
+                    height="600" 
+                    frameborder="0"
+                    style="border: 1px solid #e5e5e5; border-radius: 8px;"
+                &gt;&lt;/iframe&gt;
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <h2>Como Web Component</h2>
+            <chat-widget></chat-widget>
+            <div class="code-example">
+                &lt;script type="module" src="URL_DO_WIDGET/main.js"&gt;&lt;/script&gt;
+                &lt;chat-widget&gt;&lt;/chat-widget&gt;
+            </div>
+        </section>
+    </div>
+</body>
+</html>

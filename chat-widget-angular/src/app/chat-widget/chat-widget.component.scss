@@ -1,0 +1,122 @@
+@use '../../styles/variables' as *;
+
+:host {
+  display: block;
+  width: 400px;
+  height: 600px;
+}
+
+.chat-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: $spacing-unit * 2;
+  background: var(--primary-color);
+  color: white;
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: $spacing-unit * 2;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-unit * 2;
+}
+
+.message-wrapper {
+  display: flex;
+  
+  &.user {
+    justify-content: flex-end;
+    
+    .message {
+      background: var(--primary-color);
+      color: white;
+    }
+  }
+  
+  &.bot .message {
+    background: var(--muted-color);
+  }
+}
+
+.message {
+  max-width: 80%;
+  padding: $spacing-unit * 2;
+  border-radius: $border-radius;
+  
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+  
+  .timestamp {
+    display: block;
+    font-size: 0.75rem;
+    margin-top: $spacing-unit;
+    opacity: 0.7;
+  }
+}
+
+.error-message {
+  align-self: center;
+  background: rgba(var(--error-color), 0.1);
+  color: var(--error-color);
+  padding: $spacing-unit;
+  border-radius: $border-radius;
+  font-size: 0.75rem;
+}
+
+.input-container {
+  padding: $spacing-unit * 2;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  gap: $spacing-unit;
+  
+  input {
+    flex: 1;
+    padding: $spacing-unit;
+    border: 1px solid var(--border-color);
+    border-radius: $spacing-unit;
+    font-size: 0.875rem;
+    
+    &:disabled {
+      background: var(--muted-color);
+      cursor: not-allowed;
+    }
+  }
+  
+  button {
+    padding: $spacing-unit $spacing-unit * 2;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: $spacing-unit;
+    cursor: pointer;
+    font-size: 0.875rem;
+    
+    &:hover:not(:disabled) {
+      background: var(--primary-hover);
+    }
+    
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

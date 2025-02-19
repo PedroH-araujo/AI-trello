@@ -1,0 +1,20 @@
+{
+  "name": "trello-chatbot-api",
+  "version": "1.0.0",
+  "description": "API version of Trello chatbot",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.27",
+    "@langchain/openai": "^0.0.14",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "langchain": "^0.1.17",
+    "node-fetch": "^3.3.2"
+  }
+}
