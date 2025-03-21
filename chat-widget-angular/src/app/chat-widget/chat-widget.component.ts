@@ -19,7 +19,9 @@ export class ChatWidgetComponent implements OnInit {
   inputMessage = '';
   isLoading = false;
   error: string | null = null;
-  handleCreateBoard = false;
+  // handleCreateBoard = false;
+  // handleCreateCard = false;
+  BOARD_LIST_ACTIONS = ['list_boards', 'select_board_for_list', 'select_board_for_card', 'select_board_for_lists', 'select_board_for_card_move'];
 
   constructor(private chatService: ChatService) {}
 
@@ -35,7 +37,7 @@ export class ChatWidgetComponent implements OnInit {
     };
 
     this.messages.push(newMessage);
-    const currentMessage = this.handleCreateBoard ? { action: 'create_board', data: { name: this.inputMessage } } : this.inputMessage;
+    const currentMessage = this.inputMessage;
     this.inputMessage = '';
     this.isLoading = true;
     this.error = null;
@@ -43,26 +45,63 @@ export class ChatWidgetComponent implements OnInit {
     try {
       const response = await this.chatService.sendMessage(currentMessage).toPromise();
 
-      if (response.action === 'list_boards' || response.action === 'select_board_for_list') {
-        this.messages.push({
-          text: 'Aqui estão as boards disponíveis:',
-          timestamp: new Date().toISOString(),
-          isUser: false
-        });
+      // if (this.BOARD_LIST_ACTIONS.includes(response.action)) {
+      //   this.messages.push({
+      //     text: response.action === 'list_boards' ? 'Aqui estão as boards disponíveis:' : `Aqui estão as boards disponíveis, para realizar a ação desejada:\n
+      //     - Para criar uma lista informe o ID da board seguido do nome da lista\n
+      //     - Para listar as listas de uma board informe apenas o ID da board\n
+      //     - Para criar um card informe o ID da lista seguido do nome do card\n,
+      //     - Para mover um card informe o ID do card seguido do ID da lista de destino\n`,
+      //     timestamp: new Date().toISOString(),
+      //     isUser: false
+      //   });
 
-        response.data.forEach((board: { name: any; }, index: number) => {
-          this.messages.push({
-            text: `${index + 1}. ${board.name}`,
-            timestamp: new Date().toISOString(),
-            isUser: false
-          });
-        });
+      // const boardsList = response.data.map((board: { name: string; id: string; lists: { name: string; id: string; }[] }, index: number) =>
+      //   `${index + 1}. Board: ${board.name} (ID: ${board.id})\n` +
+      //   (board.lists.length > 0
+      //     ? board.lists.map((list, listIndex) => `   - ${listIndex + 1}. Lista: ${list.name} (ID: ${list.id})`).join('\n')
+      //     : '   - Nenhuma lista disponível.')
+      // ).join('\n\n');
 
-        return;
-      }
-      if (response.action === 'create_board') {
-        this.handleCreateBoard = true;
-      }
+
+      //   this.messages.push({
+      //     text: `Aqui estão as boards disponíveis:\n\n${boardsList}`,
+      //     timestamp: new Date().toISOString(),
+      //     isUser: false
+      //   });
+
+      //   // if (response.action === 'select_board_for_card') {
+      //   //   this.handleCreateCard = true;
+      //   // }
+
+
+      //   return;
+      // }
+
+      // if (response.action === 'lists_retrieved') {
+      //   this.messages.push({
+      //     text: `Aqui estão as listas disponíveis, para realizar a ação desejada:\n
+      //     - Para criar um card informe o ID da lista seguido do nome do card\n`,
+      //     timestamp: new Date().toISOString(),
+      //     isUser: false
+      //   });
+
+      //   const boardListing = response.data.map((list: { name: string; id: string; }, index: number) =>
+      //     `${index + 1}. ID: ${list.id} - Nome: ${list.name}`
+      //   ).join('\n\n');
+
+      //   this.messages.push({
+      //     text: `Aqui estão as listas disponíveis:\n\n${boardListing}`,
+      //     timestamp: new Date().toISOString(),
+      //     isUser: false
+      //   });
+
+      //   return
+      // }
+
+      // if (response.action === 'create_board') {
+      //   this.handleCreateBoard = true;
+      // }
       this.messages.push({
         text: response.message,
         timestamp: response.timestamp,

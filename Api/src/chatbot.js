@@ -1,6 +1,12 @@
 import { chain, trelloOperations } from './index.js';
 import { handleBoardCreation, handleListCreation, handleCardCreation, handleCardMovement, handleListListing, handleError, showHelp, handleBoardListing } from './helpers.js';
 import { MESSAGES, REGEX_PATTERNS } from './constants.js';
+import { BufferMemory } from "langchain/memory";
+const memory = new BufferMemory();
+const memoryVariables = await memory.loadMemoryVariables({});
+const history = memoryVariables.chat_history || [];  // Se não houver histórico, usa string vazia
+
+
 // import readline from 'readline';
 
 // process.stdin.setEncoding('utf8');
@@ -95,7 +101,10 @@ export async function handleUserInput(input) {
       return;
     }
 
-    const response = await chain.call({ input });
+    const response = await chain.invoke({
+      question: userInput,
+      history: history
+    });
     const intent = response.response.toLowerCase();
     console.log('Assistente:', response.response);
     

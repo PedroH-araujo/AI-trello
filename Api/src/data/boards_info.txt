@@ -1,0 +1,379 @@
+**Quadros Disponíveis:**
+
+Quadro. Backlog
+  -Id: 67a568de0eb37c51a1d28d05
+   **Listas:**
+   -Lista. NOVA-LISTA:
+     -Id: 67e050dd6f15825012d27b50
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Done:
+     -Id: 67a568f1d789e245ee8ba204
+   **Cartoes:**
+     -Cartão. novo-card
+       -Id: 67e050facded5dfa48bdb407
+
+   -Lista. Doing:
+     -Id: 67a568f1b70c4b701afc5431
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. To Do:
+     -Id: 67a568f1bf644c59e7cea953
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+
+Quadro. Contração de Funcionários
+  -Id: 67904df271e9f2e2e0593b54
+   **Listas:**
+   -Lista. Lista de Tarefas:
+     -Id: 67e0181462f27e3cf29c9f4f
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. NOVEDF:
+     -Id: 67ba81d872658f807b7c1d8e
+   **Cartoes:**
+     -Cartão. NOVODE
+       -Id: 67c63d6704cf70f28a211de6
+
+   -Lista. Candidatos:
+     -Id: 67904df4e3b7caa255bd91cb
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Entrevistas:
+     -Id: 67904df485b8e3facd9e13fe
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Selecionados:
+     -Id: 67904df558ca7577fd053ee6
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+
+Quadro. Desafio ONE
+  -Id: 63a0a898c146d0021a9a689f
+   **Listas:**
+   -Lista. Ferramentas:
+     -Id: 63a0a898c146d0021a9a68a6
+   **Cartoes:**
+     -Cartão. .
+       -Id: 63a0a898c146d0021a9a6904
+     -Cartão. Sobre o desafio
+       -Id: 63a0a898c146d0021a9a690b
+     -Cartão. Para saber mais: cursos, artigos e Alura+
+       -Id: 63a0a898c146d0021a9a6908
+     -Cartão. Extra: publique sua página!
+       -Id: 63a0a898c146d0021a9a6911
+     -Cartão. Mensagem secreta!
+       -Id: 63a0a898c146d0021a9a6913
+
+   -Lista. Backlog:
+     -Id: 63a0a898c146d0021a9a68a7
+   **Cartoes:**
+     -Cartão. .
+       -Id: 63a0a898c146d0021a9a68f5
+     -Cartão. Campo para o texto que será criptografado/descriptografado
+       -Id: 63a0a898c146d0021a9a68fb
+     -Cartão. Área para mostrar o texto criptografado/descriptografado.
+       -Id: 63a0a898c146d0021a9a68ff
+     -Cartão. Fazer a criptografia
+       -Id: 63a0a898c146d0021a9a68e8
+     -Cartão. Fazer a descriptografia
+       -Id: 63a0a898c146d0021a9a68e7
+     -Cartão. Extra! Botão copiar
+       -Id: 63a0a898c146d0021a9a68e5
+     -Cartão. Crie seu repositório de projetos no GitHub
+       -Id: 63a0a898c146d0021a9a6906
+     -Cartão. Entrega do desafio
+       -Id: 63a0a898c146d0021a9a68e6
+
+   -Lista. Em desenvolvimento:
+     -Id: 63a0a898c146d0021a9a68a8
+   **Cartoes:**
+     -Cartão. .
+       -Id: 63a0a898c146d0021a9a68f9
+     -Cartão. Modelo Figma
+       -Id: 63a0a898c146d0021a9a68f7
+     -Cartão. Montar elementos da página
+       -Id: 63a0a898c146d0021a9a690e
+
+   -Lista. Pausado:
+     -Id: 63a0a898c146d0021a9a68a9
+   **Cartoes:**
+     -Cartão. .
+       -Id: 63a0a898c146d0021a9a68fd
+
+   -Lista. Concluído:
+     -Id: 63a0a898c146d0021a9a68aa
+   **Cartoes:**
+     -Cartão. .
+       -Id: 63a0a898c146d0021a9a6901
+
+[BOARD_END]
+
+Quadro. ESTUDAR
+  -Id: 63889494d264e70099d9ad63
+   **Listas:**
+   -Lista. Minha nova lista:
+     -Id: 66f98bc0d3a2b5412b0485a3
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. JAVASCRIPT:
+     -Id: 638894a92b1944013feb9699
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. TYPESCRIPT:
+     -Id: 638894c598c092019b960f61
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. ANGULAR:
+     -Id: 638894cd47a61a0101e704b7
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+
+Quadro. NOVOQUADRO
+  -Id: 67d72246316bb039eec5645d
+   **Listas:**
+   -Lista. NOVALISTAS:
+     -Id: 67df2c2a0dfbc38fc0df91c7
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. NOVALISTINHA:
+     -Id: 67d72b14c44544b32292f237
+   **Cartoes:**
+     -Cartão. NOVOCARDE
+       -Id: 67d72f01c51bd5aa2ee12f56
+
+[BOARD_END]
+
+Quadro. Projeto Empreendedorismo
+  -Id: 641a296f121aabb7c9ca2acf
+   **Listas:**
+   -Lista. BRAINSTORM 🤔:
+     -Id: 641a296f121aabb7c9ca2ad6
+   **Cartoes:**
+     -Cartão. ✋🏿 Add what you'd like to work on below
+       -Id: 641a296f121aabb7c9ca2b22
+     -Cartão. Pesquisar sobre os desafios vividos pelos surdos na comunicação
+       -Id: 641b7844e9bacd5558777244
+     -Cartão. Cronograma
+       -Id: 641dcfeb35865604d985f1ef
+
+   -Lista. TODO 📚:
+     -Id: 641a296f121aabb7c9ca2ad7
+   **Cartoes:**
+     -Cartão. ✋🏿 Move anything 'ready' here
+       -Id: 641a296f121aabb7c9ca2b24
+     -Cartão. Pesquisa de Marketing
+       -Id: 641dbb35b28569e12893d422
+     -Cartão. Canvas 1 e 2
+       -Id: 6428447b9aadefd77a42d916
+
+   -Lista. DOING ⚙️:
+     -Id: 641a296f121aabb7c9ca2ad8
+   **Cartoes:**
+     -Cartão. ✋🏿 Move anything that is actually started here
+       -Id: 641a296f121aabb7c9ca2b26
+
+   -Lista. DONE! 🙌🏽:
+     -Id: 641a296f121aabb7c9ca2ad9
+   **Cartoes:**
+     -Cartão. ✋🏿 Move anything from doing to done here
+       -Id: 641a296f121aabb7c9ca2b28
+     -Cartão. Card Template 📝
+       -Id: 641a296f121aabb7c9ca2b1e
+
+[BOARD_END]
+
+Quadro. Projeto Interdisciplinar
+  -Id: 641a2a015adfa6ff878b33b5
+   **Listas:**
+   -Lista. A fazer:
+     -Id: 641a2a015adfa6ff878b33bc
+   **Cartoes:**
+     -Cartão. Cronograma
+       -Id: 641dd0f7b8c05cc3f2fa75e1
+
+   -Lista. Em andamento:
+     -Id: 641a2a015adfa6ff878b33bd
+   **Cartoes:**
+     -Cartão. Trabalho 02 - ESI
+       -Id: 641a3fe28728d1b1c821863b
+
+   -Lista. Concluído:
+     -Id: 641a2a015adfa6ff878b33be
+   **Cartoes:**
+     -Cartão. Trabalho 01 - ESI
+       -Id: 641a3fc44efdd90c73d59a5f
+     -Cartão. Introdução - CE
+       -Id: 641a3ff04bac70baa885f686
+
+   -Lista. Apresentação - Semana 19/06 - 22/06:
+     -Id: 641a3f86e45d4837edf164fb
+   **Cartoes:**
+     -Cartão. Power Point - Apresentação
+       -Id: 641a408946ddc28b488c0ee4
+     -Cartão. Word - Relatório
+       -Id: 641a40a9c2136ba34048982e
+
+[BOARD_END]
+
+Quadro. Projeto Studio Life
+  -Id: 6361085d55c0db0258d07ecf
+   **Listas:**
+   -Lista. A fazer:
+     -Id: 6361085d55c0db0258d07ed6
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Em andamento:
+     -Id: 6361085d55c0db0258d07ed7
+   **Cartoes:**
+     -Cartão. fazendo os slides
+       -Id: 6362be0622d0e000bb7c3a85
+     -Cartão. Página index.html
+       -Id: 6362d0c32586bc00bb10559c
+     -Cartão. Página residencial.html
+       -Id: 6362d0cf7f55800137afbc4f
+     -Cartão. Página interiores.html
+       -Id: 6362d0ffeaac7705c6e19ea7
+     -Cartão. Página conceitolife.html
+       -Id: 6362d111accf3a05f1fb1024
+     -Cartão. Página equipe.html
+       -Id: 6362d12008134902f270b0e4
+     -Cartão. Página contato.html
+       -Id: 6362d12a9c468601be167753
+
+   -Lista. Concluído:
+     -Id: 6361085d55c0db0258d07ed8
+   **Cartoes:**
+     -Cartão. Orçamento - Excel
+       -Id: 6362d048bdb6fa01edfe80fc
+     -Cartão. 1a Reunião Studio LiFe
+       -Id: 636443c41d15f900d097f7fa
+     -Cartão. 1a Reunião Equipe - mão na massa
+       -Id: 6364458119276c00ec5ee54b
+     -Cartão. Reunião Equipe - mão na massa
+       -Id: 6362d8437e63f8009095ed42
+     -Cartão. Imagens Studio LiFe
+       -Id: 6362bdd3b1f8e804fd2a27f6
+     -Cartão. 2a Reunião Studio LiFe
+       -Id: 6362d171fc580100ebb4a8eb
+     -Cartão. Reunião Equipe - mão na massa
+       -Id: 6362d85b30cfdd0208a85419
+     -Cartão. 3a Reunião Studio LiFe
+       -Id: 6362d1798560c8019b721ef4
+     -Cartão. Site completo
+       -Id: 6362d2215c91840132732554
+     -Cartão. Documentação do projeto - Word
+       -Id: 6362d20054345e016aeaf916
+     -Cartão. Apresentação - PowerPoint
+       -Id: 6362d02ac6d08c0169b0c49a
+
+[BOARD_END]
+
+Quadro. QUADRO-10
+  -Id: 67d2207463d3d32c01442595
+   **Listas:**
+   -Lista. Finalizado:
+     -Id: 67e027d9821d6562bdcc5ebc
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. OUTRA-LISTA:
+     -Id: 67d236564346dc0a8abd547c
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. NOVALISTA:
+     -Id: 67d23614f1114e5a5fd4eea7
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Processamento:
+     -Id: 67d22ca16177e520909c9c95
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+
+Quadro. T4- Formação Iniciante em Programação
+  -Id: 637f6dcbaa7709001d526752
+   **Listas:**
+   -Lista. Passos:
+     -Id: 637f6dcbaa7709001d526759
+   **Cartoes:**
+     -Cartão. Recomendações para usar este plano de estudos
+       -Id: 637f6dcbaa7709001d52678f
+     -Cartão. Aprender a lógica de programação
+       -Id: 637f6dcbaa7709001d526784
+     -Cartão. Agora você está pronto para enfrentar seu primeiro desafio
+       -Id: 637f6dcbaa7709001d526792
+     -Cartão. Criar suas primeiras páginas web
+       -Id: 637f6dcbaa7709001d526782
+     -Cartão. Ganhar experiência com Git
+       -Id: 637f6dcbaa7709001d526783
+     -Cartão. Participe do nosso Show Me Projects
+       -Id: 637f6dcbaa7709001d526797
+
+   -Lista. Em desenvolvimento:
+     -Id: 637f6dcbaa7709001d52675a
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Módulos concluídos:
+     -Id: 637f6dcbaa7709001d52675b
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Certificados:
+     -Id: 637f6dcbaa7709001d52675c
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+
+Quadro. Testando
+  -Id: 67a42333cc058887851a168f
+   **Listas:**
+   -Lista. NOVALISTA:
+     -Id: 67a5608b3ebc0e4b86567390
+   **Cartoes:**
+     -Cartão. CARTT
+       -Id: 67a5610241c1b38c89ba3069
+
+   -Lista. Tarefas Pendentes:
+     -Id: 67a55c05466a379b64ae58f7
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. A fazer:
+     -Id: 67a42333cc058887851a16f1
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Em andamento:
+     -Id: 67a42333cc058887851a16f2
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+   -Lista. Concluído:
+     -Id: 67a42333cc058887851a16f3
+   **Cartoes:**
+     - Lista atualmente sem cartões.
+
+[BOARD_END]
+

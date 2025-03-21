@@ -40,6 +40,7 @@ const trelloOperations = {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
+
       return await response.json();
     } catch (error) {
       throw new Error(`Erro ao criar quadro: ${error.message}`);
@@ -61,7 +62,7 @@ const trelloOperations = {
     }
   },
 
-  createCard: async (listId, name, desc) => {
+  createCard: async (listId, name, desc = '') => {
     try {
       const response = await fetch(`${TRELLO_API_BASE}/cards?${auth}`, {
         method: 'POST',

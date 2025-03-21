@@ -40,16 +40,16 @@
 
 .message-wrapper {
   display: flex;
-  
+
   &.user {
     justify-content: flex-end;
-    
+
     .message {
       background: var(--primary-color);
       color: white;
     }
   }
-  
+
   &.bot .message {
     background: var(--muted-color);
   }
@@ -59,12 +59,13 @@
   max-width: 80%;
   padding: $spacing-unit * 2;
   border-radius: $border-radius;
-  
+
   p {
     margin: 0;
     font-size: 0.875rem;
+    white-space: pre-line;
   }
-  
+
   .timestamp {
     display: block;
     font-size: 0.75rem;
@@ -87,20 +88,20 @@
   border-top: 1px solid var(--border-color);
   display: flex;
   gap: $spacing-unit;
-  
+
   input {
     flex: 1;
     padding: $spacing-unit;
     border: 1px solid var(--border-color);
     border-radius: $spacing-unit;
     font-size: 0.875rem;
-    
+
     &:disabled {
       background: var(--muted-color);
       cursor: not-allowed;
     }
   }
-  
+
   button {
     padding: $spacing-unit $spacing-unit * 2;
     background: var(--primary-color);
@@ -109,11 +110,11 @@
     border-radius: $spacing-unit;
     cursor: pointer;
     font-size: 0.875rem;
-    
+
     &:hover:not(:disabled) {
       background: var(--primary-hover);
     }
-    
+
     &:disabled {
       opacity: 0.5;
       cursor: not-allowed;
